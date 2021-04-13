@@ -1,0 +1,34 @@
+.table {
+  margin-top: 20px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 400px;
+  color: #6a5d5d;
+}
+
+.table tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table td {
+  padding: 0.5rem;
+}
+
+.table .table_row:nth-last-of-type(odd) {
+  background-color: #f3f2f8;
+}
+
+.table .table_rowDark:nth-last-of-type(odd) {
+  color: #e43f5a;
+  background-color: #1b1b2f;
+}
+
+.table_rowDark:nth-last-of-type(even) {
+  background-color: #1c1c41;
+  color: #e43f5a;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
